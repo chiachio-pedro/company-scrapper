@@ -13,12 +13,10 @@ email = input("Preencha seu E-Mail de Acesso ao LinkedIn: ")
 password = input("Preencha sua Senha de Acesso ao LinkedIn: ")
 company = input("Preencha um Termo de Busca para Encontrar Alguma Empresa: ")
 
-
 # Formatando Empresa...
 company = company.replace(" ", "%20")
 
 # Criando Output de Respostas...
-
 json = {'Nome da Empresa': [],
         'LinkedIn': [],
         'Site': [],
